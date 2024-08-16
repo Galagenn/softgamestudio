@@ -24,7 +24,7 @@ body{
     color: #fff;
 }
 .header {
-  position: fixed;
+  position: absolute;
   top: 2.1875rem; /* Расположение по вертикали */
   left: 50%;
   transform: translateX(-50%);
@@ -39,18 +39,15 @@ body{
   z-index: 1000;
   font-weight: 400;
   font-size: 1.5rem;
-  color: #fff;
-}
-
-
-
+  color: #fff; 
   
-  .header__container {
+  &__container {
     max-width: 81.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+}
   
   .menu {
     display: flex;
@@ -137,7 +134,7 @@ body{
 &__title{
   text-align: center;
   padding-top: 9.6875rem;
-  margin-bottom: 11.25px;
+  margin-bottom: 11.25rem;
 
   h1{
     font-family: "Michroma", sans-serif;
@@ -196,7 +193,7 @@ body{
     img{
       position: absolute;
       top: 50rem;
-      right: 8rem;
+      right: 14rem;
     }
 
   }
